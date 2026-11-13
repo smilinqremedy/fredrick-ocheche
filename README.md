@@ -1,4 +1,4 @@
-# Ocheche Fredrick — Developer Portfolio (`ocheche.dev`)
+# Fredrick Ocheche Sunday — Developer Portfolio
 
 Welcome to the source repository for my personal developer portfolio and engineering showcase.
 
@@ -75,3 +75,18 @@ Then open your browser and navigate to `http://localhost:3000`.
 ---
 
 © 2026 Ocheche Fredrick. All rights reserved.
+
+
+## Search visibility setup
+
+The site includes descriptive page metadata, social-sharing metadata, and Schema.org JSON-LD describing the owner and project collection. These help search engines interpret the pages; they do not guarantee rankings or an AI Overview.
+
+### Before requesting indexing
+
+1. Deploy the site to a public HTTPS URL (GitHub Pages is a no-cost option).
+2. Replace any remaining social profile placeholders with the exact public profile URLs.
+3. Add the final public site URL to the JSON-LD `url` field and use absolute URLs for social preview images.
+4. Create `sitemap.xml` using the final deployed URLs and reference it from `robots.txt`.
+5. Add the site to Google Search Console, verify ownership, submit the sitemap, and inspect the home and projects URLs.
+
+No custom domain is configured in this repository. Do not publish `ocheche.dev` as the canonical domain unless you own it and have connected it to the hosting provider.
