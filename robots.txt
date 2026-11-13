@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://smilinqremedy.github.io/fredrick-ocheche/sitemap.xml
